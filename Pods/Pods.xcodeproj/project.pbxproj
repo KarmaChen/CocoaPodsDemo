@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DB0EFF68FD5C14A2BB302B9AC5DA59 /* NSDictionary+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = CC533D1F295EEB6C5800CDAE1A143017 /* NSDictionary+SAJson.m */; };
+		127EA82AE6A4930374368C8B5453B65C /* SADeserializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D5E45B0734DCC964C37DAEF28F53A0 /* SADeserializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1680475E5A103E5D9B81EE560786D927 /* Pods-CocoaPodsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91954197405426CFCF30EC73B8AD5355 /* Pods-CocoaPodsDemo-dummy.m */; };
+		2CDC9DF8A9A494AA92FCE6FA1707838B /* NSDictionary+SafeHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB729F2B814D9D09CB5E990CA7512A8 /* NSDictionary+SafeHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA8F2AB06573415404B3153E9C2BAAE /* NSDictionary+SafeHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AF8A01F7367F6F6DA648767AD20FFE /* NSDictionary+SafeHandling.m */; };
+		51B2EBCC43312346AF620718C78B1FB8 /* NSObject+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 49EFE0BBC993774CDB92BE42E2CB5CD0 /* NSObject+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CD2197AF35061A7A9F14A9D0EA92414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5DE0422D8EA8898453921A6306FF0FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6545AFC2673A418A1EF5A53C46FFBB1C /* NSObject+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 340A1BEE2FC53FE6AC91FBF4D5D9A622 /* NSObject+SAJson.m */; };
+		B7D1C4B8E380D309B766F6C1B459FA87 /* NSArray+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CDE6F3F458D93D6B9146D10B9A1F91 /* NSArray+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C631597F73D9B6F454E42669A2CF39B9 /* NSDictionary+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = AF675ACB5647B5A9AF75FB576F0E0372 /* NSDictionary+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D70F92C7CE9A5FB2D78D4161DC0175FB /* SAJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 121AB5F7DD1BFC00A2851EE75B6E178C /* SAJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4A2053B140675B335900B25380C4AB1 /* SAJsonParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B412204973B2E0BAA53143E4FE5BCD48 /* SAJsonParser-dummy.m */; };
+		E8F116F5435AD539E47B5F27FC5ABBF2 /* SASerializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C5D2E3BA08E3732E3BF525572082DF /* SASerializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8DC97510108CB0D1F15C6E9921E058 /* NSArray+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF23F6A1C8491EE65A707213DC9D68C /* NSArray+SAJson.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92EA616FFF973DA8E5BC1F2B99328F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9568561CD29DB5A626CDC30D4A902F;
+			remoteInfo = SAJsonParser;
+		};
+		A205A3245EA862EAEED97B4B690CB8F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 729CF5222ACEBF12013E5C08EA82C061;
+			remoteInfo = "SAJsonParser-SAJsonParser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0589B670E6812AB3E4F84CAF7B4DA6AD /* libSAJsonParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAJsonParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		121AB5F7DD1BFC00A2851EE75B6E178C /* SAJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAJsonParser.h; path = Pod/Classes/SAJsonParser.h; sourceTree = "<group>"; };
+		123750EC1840A9B2161A574B3ECF9013 /* Pods-CocoaPodsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1BB729F2B814D9D09CB5E990CA7512A8 /* NSDictionary+SafeHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SafeHandling.h"; path = "Pod/Classes/NSDictionary+SafeHandling.h"; sourceTree = "<group>"; };
+		28CDE6F3F458D93D6B9146D10B9A1F91 /* NSArray+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SAJson.h"; path = "Pod/Classes/NSArray+SAJson.h"; sourceTree = "<group>"; };
+		340A1BEE2FC53FE6AC91FBF4D5D9A622 /* NSObject+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SAJson.m"; path = "Pod/Classes/NSObject+SAJson.m"; sourceTree = "<group>"; };
+		37E2453BCE33876B6CB3941F3AA95EDF /* Pods-CocoaPodsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaPodsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F564C8B14DC1E54A9973D98317A5662 /* SAJsonParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAJsonParser.xcconfig; sourceTree = "<group>"; };
+		47D5E45B0734DCC964C37DAEF28F53A0 /* SADeserializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeserializationProtocol.h; path = Pod/Classes/SADeserializationProtocol.h; sourceTree = "<group>"; };
+		49EFE0BBC993774CDB92BE42E2CB5CD0 /* NSObject+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SAJson.h"; path = "Pod/Classes/NSObject+SAJson.h"; sourceTree = "<group>"; };
+		57C5D2E3BA08E3732E3BF525572082DF /* SASerializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASerializationProtocol.h; path = Pod/Classes/SASerializationProtocol.h; sourceTree = "<group>"; };
+		6AF23F6A1C8491EE65A707213DC9D68C /* NSArray+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SAJson.m"; path = "Pod/Classes/NSArray+SAJson.m"; sourceTree = "<group>"; };
+		7E8820B18A2C8F1E0451D539ECFB004D /* ResourceBundle-SAJsonParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SAJsonParser-Info.plist"; sourceTree = "<group>"; };
+		91954197405426CFCF30EC73B8AD5355 /* Pods-CocoaPodsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaPodsDemo-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A6B4FB49A60DEA9038095A73144525 /* libPods-CocoaPodsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaPodsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE174A8EAA18538DA446A4EA3E6A2027 /* SAJsonParser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAJsonParser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF675ACB5647B5A9AF75FB576F0E0372 /* NSDictionary+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SAJson.h"; path = "Pod/Classes/NSDictionary+SAJson.h"; sourceTree = "<group>"; };
+		B412204973B2E0BAA53143E4FE5BCD48 /* SAJsonParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAJsonParser-dummy.m"; sourceTree = "<group>"; };
+		B4C9D488E32CE57AC2A99C955E0DBE40 /* Pods-CocoaPodsDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodsDemo-frameworks.sh"; sourceTree = "<group>"; };
+		B6AF8A01F7367F6F6DA648767AD20FFE /* NSDictionary+SafeHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SafeHandling.m"; path = "Pod/Classes/NSDictionary+SafeHandling.m"; sourceTree = "<group>"; };
+		C2815E1C6BBB5622C6E7924A978163BB /* Pods-CocoaPodsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPodsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC533D1F295EEB6C5800CDAE1A143017 /* NSDictionary+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SAJson.m"; path = "Pod/Classes/NSDictionary+SAJson.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB33367CF54F710B26376F10C8A94021 /* Pods-CocoaPodsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EABB989E5693FB4E823ABE400734C44B /* SAJsonParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAJsonParser-prefix.pch"; sourceTree = "<group>"; };
+		ECE423D65D642A744E5EA36C10E741A7 /* Pods-CocoaPodsDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodsDemo-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C858E8515D7D1E877BD0FB7550B668C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D82B2489C87E349DBAD88BA1960F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE0422D8EA8898453921A6306FF0FDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA86F3624D76D23DC46FD44B6CE44A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD2197AF35061A7A9F14A9D0EA92414 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C6D6024FF25B106BACA8392B6886EE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7DA9CB3C1246C354C60BCDD20CD3A /* SAJsonParser */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		236108914CBC365D30F147C647C5DE61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E8820B18A2C8F1E0451D539ECFB004D /* ResourceBundle-SAJsonParser-Info.plist */,
+				3F564C8B14DC1E54A9973D98317A5662 /* SAJsonParser.xcconfig */,
+				B412204973B2E0BAA53143E4FE5BCD48 /* SAJsonParser-dummy.m */,
+				EABB989E5693FB4E823ABE400734C44B /* SAJsonParser-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAJsonParser";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66431D9F02657E9425EDB199D7D3FBAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A6B4FB49A60DEA9038095A73144525 /* libPods-CocoaPodsDemo.a */,
+				0589B670E6812AB3E4F84CAF7B4DA6AD /* libSAJsonParser.a */,
+				AE174A8EAA18538DA446A4EA3E6A2027 /* SAJsonParser.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78009075147D6458C2883C4B09F26079 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B23E77834714495A5D7B4B8810BE63D /* Pods-CocoaPodsDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7AE7DA9CB3C1246C354C60BCDD20CD3A /* SAJsonParser */ = {
+			isa = PBXGroup;
+			children = (
+				28CDE6F3F458D93D6B9146D10B9A1F91 /* NSArray+SAJson.h */,
+				6AF23F6A1C8491EE65A707213DC9D68C /* NSArray+SAJson.m */,
+				1BB729F2B814D9D09CB5E990CA7512A8 /* NSDictionary+SafeHandling.h */,
+				B6AF8A01F7367F6F6DA648767AD20FFE /* NSDictionary+SafeHandling.m */,
+				AF675ACB5647B5A9AF75FB576F0E0372 /* NSDictionary+SAJson.h */,
+				CC533D1F295EEB6C5800CDAE1A143017 /* NSDictionary+SAJson.m */,
+				49EFE0BBC993774CDB92BE42E2CB5CD0 /* NSObject+SAJson.h */,
+				340A1BEE2FC53FE6AC91FBF4D5D9A622 /* NSObject+SAJson.m */,
+				47D5E45B0734DCC964C37DAEF28F53A0 /* SADeserializationProtocol.h */,
+				121AB5F7DD1BFC00A2851EE75B6E178C /* SAJsonParser.h */,
+				57C5D2E3BA08E3732E3BF525572082DF /* SASerializationProtocol.h */,
+				236108914CBC365D30F147C647C5DE61 /* Support Files */,
+			);
+			path = SAJsonParser;
+			sourceTree = "<group>";
+		};
+		7B23E77834714495A5D7B4B8810BE63D /* Pods-CocoaPodsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				37E2453BCE33876B6CB3941F3AA95EDF /* Pods-CocoaPodsDemo-acknowledgements.markdown */,
+				C2815E1C6BBB5622C6E7924A978163BB /* Pods-CocoaPodsDemo-acknowledgements.plist */,
+				91954197405426CFCF30EC73B8AD5355 /* Pods-CocoaPodsDemo-dummy.m */,
+				B4C9D488E32CE57AC2A99C955E0DBE40 /* Pods-CocoaPodsDemo-frameworks.sh */,
+				ECE423D65D642A744E5EA36C10E741A7 /* Pods-CocoaPodsDemo-resources.sh */,
+				DB33367CF54F710B26376F10C8A94021 /* Pods-CocoaPodsDemo.debug.xcconfig */,
+				123750EC1840A9B2161A574B3ECF9013 /* Pods-CocoaPodsDemo.release.xcconfig */,
+			);
+			name = "Pods-CocoaPodsDemo";
+			path = "Target Support Files/Pods-CocoaPodsDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0C6D6024FF25B106BACA8392B6886EE8 /* Pods */,
+				66431D9F02657E9425EDB199D7D3FBAE /* Products */,
+				78009075147D6458C2883C4B09F26079 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E069C51DF7C2B40080EFF51FBF1BDCA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D1C4B8E380D309B766F6C1B459FA87 /* NSArray+SAJson.h in Headers */,
+				2CDC9DF8A9A494AA92FCE6FA1707838B /* NSDictionary+SafeHandling.h in Headers */,
+				C631597F73D9B6F454E42669A2CF39B9 /* NSDictionary+SAJson.h in Headers */,
+				51B2EBCC43312346AF620718C78B1FB8 /* NSObject+SAJson.h in Headers */,
+				127EA82AE6A4930374368C8B5453B65C /* SADeserializationProtocol.h in Headers */,
+				D70F92C7CE9A5FB2D78D4161DC0175FB /* SAJsonParser.h in Headers */,
+				E8F116F5435AD539E47B5F27FC5ABBF2 /* SASerializationProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A9568561CD29DB5A626CDC30D4A902F /* SAJsonParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C7F95B21EE2BC832194ED2398D5F3DC /* Build configuration list for PBXNativeTarget "SAJsonParser" */;
+			buildPhases = (
+				EA3C5A84F973518C4EE24FB8DA86F35C /* Sources */,
+				AA86F3624D76D23DC46FD44B6CE44A28 /* Frameworks */,
+				E069C51DF7C2B40080EFF51FBF1BDCA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E9A9DA0D577F9850F74397A0B75C70 /* PBXTargetDependency */,
+			);
+			name = SAJsonParser;
+			productName = SAJsonParser;
+			productReference = 0589B670E6812AB3E4F84CAF7B4DA6AD /* libSAJsonParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		275387BB259F329F2076219A223B946A /* Pods-CocoaPodsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0CD8219CE721CDB984A2927989C931 /* Build configuration list for PBXNativeTarget "Pods-CocoaPodsDemo" */;
+			buildPhases = (
+				EF3B6EBC9C1765AF9E7CB6D88FF2C59C /* Sources */,
+				76D82B2489C87E349DBAD88BA1960F8F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F69A079CFF7E79F8942FBE9734B9DC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CocoaPodsDemo";
+			productName = "Pods-CocoaPodsDemo";
+			productReference = 95A6B4FB49A60DEA9038095A73144525 /* libPods-CocoaPodsDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		729CF5222ACEBF12013E5C08EA82C061 /* SAJsonParser-SAJsonParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B676E9C6D9C112449DA9F3CC117B684 /* Build configuration list for PBXNativeTarget "SAJsonParser-SAJsonParser" */;
+			buildPhases = (
+				595B15FD45CBB0B4A16EB11A48FE37E5 /* Sources */,
+				4C858E8515D7D1E877BD0FB7550B668C /* Frameworks */,
+				E90B89BE8D56F665B73FF7A26A21DF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SAJsonParser-SAJsonParser";
+			productName = "SAJsonParser-SAJsonParser";
+			productReference = AE174A8EAA18538DA446A4EA3E6A2027 /* SAJsonParser.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 66431D9F02657E9425EDB199D7D3FBAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				275387BB259F329F2076219A223B946A /* Pods-CocoaPodsDemo */,
+				0A9568561CD29DB5A626CDC30D4A902F /* SAJsonParser */,
+				729CF5222ACEBF12013E5C08EA82C061 /* SAJsonParser-SAJsonParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90B89BE8D56F665B73FF7A26A21DF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		595B15FD45CBB0B4A16EB11A48FE37E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3C5A84F973518C4EE24FB8DA86F35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8DC97510108CB0D1F15C6E9921E058 /* NSArray+SAJson.m in Sources */,
+				4CA8F2AB06573415404B3153E9C2BAAE /* NSDictionary+SafeHandling.m in Sources */,
+				07DB0EFF68FD5C14A2BB302B9AC5DA59 /* NSDictionary+SAJson.m in Sources */,
+				6545AFC2673A418A1EF5A53C46FFBB1C /* NSObject+SAJson.m in Sources */,
+				E4A2053B140675B335900B25380C4AB1 /* SAJsonParser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3B6EBC9C1765AF9E7CB6D88FF2C59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1680475E5A103E5D9B81EE560786D927 /* Pods-CocoaPodsDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F69A079CFF7E79F8942FBE9734B9DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAJsonParser;
+			target = 0A9568561CD29DB5A626CDC30D4A902F /* SAJsonParser */;
+			targetProxy = 92EA616FFF973DA8E5BC1F2B99328F13 /* PBXContainerItemProxy */;
+		};
+		81E9A9DA0D577F9850F74397A0B75C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SAJsonParser-SAJsonParser";
+			target = 729CF5222ACEBF12013E5C08EA82C061 /* SAJsonParser-SAJsonParser */;
+			targetProxy = A205A3245EA862EAEED97B4B690CB8F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D5812AE824C254C6AD84A1F4211437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F564C8B14DC1E54A9973D98317A5662 /* SAJsonParser.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAJsonParser";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SAJsonParser/ResourceBundle-SAJsonParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = SAJsonParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		120E3A411DB7252B267AE6F5D0CC8586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F564C8B14DC1E54A9973D98317A5662 /* SAJsonParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAJsonParser/SAJsonParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2317A29242F496B759C45CDECBF95436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F564C8B14DC1E54A9973D98317A5662 /* SAJsonParser.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAJsonParser";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SAJsonParser/ResourceBundle-SAJsonParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = SAJsonParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2F702B9705F10C898B9BCE3DA635BF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB33367CF54F710B26376F10C8A94021 /* Pods-CocoaPodsDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A6BAD1016412C4257B7B0FB7FBD2927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F564C8B14DC1E54A9973D98317A5662 /* SAJsonParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAJsonParser/SAJsonParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC03B6AB42E497466FC7593E7CDA214E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 123750EC1840A9B2161A574B3ECF9013 /* Pods-CocoaPodsDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B676E9C6D9C112449DA9F3CC117B684 /* Build configuration list for PBXNativeTarget "SAJsonParser-SAJsonParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2317A29242F496B759C45CDECBF95436 /* Debug */,
+				04D5812AE824C254C6AD84A1F4211437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C7F95B21EE2BC832194ED2398D5F3DC /* Build configuration list for PBXNativeTarget "SAJsonParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120E3A411DB7252B267AE6F5D0CC8586 /* Debug */,
+				6A6BAD1016412C4257B7B0FB7FBD2927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0CD8219CE721CDB984A2927989C931 /* Build configuration list for PBXNativeTarget "Pods-CocoaPodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F702B9705F10C898B9BCE3DA635BF31 /* Debug */,
+				EC03B6AB42E497466FC7593E7CDA214E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
